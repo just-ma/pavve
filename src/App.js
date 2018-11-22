@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import Canvas from "./canvas";
 import './App.css';
 
+function preventBehavior(e) {
+  e.preventDefault(); 
+};
+
+document.addEventListener("touchmove", preventBehavior, {passive: false});
+
 class App extends Component {
   render() {
     return (
