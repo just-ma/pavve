@@ -8,7 +8,7 @@
     "react-p5-wrapper": "^0.0.4",
     "react-scripts": "2.1.1"
   },
-  "homepage": "http://justinma98.github.io/site",
+  "homepage": "http://justinma98.github.io/pavve",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

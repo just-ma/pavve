@@ -36,4 +36,4 @@
   }
 }
 
-.dotcursor { background-color: green; }
+.nocursor { cursor:none; }

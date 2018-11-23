@@ -7,11 +7,12 @@ function preventBehavior(e) {
 };
 
 document.addEventListener("touchmove", preventBehavior, {passive: false});
+document.body.style.cursor = 'none';
 
 class App extends Component {
   render() {
     return (
-      <div class="dotcursor">
+      <div class="nocursor">
         <div class = "Canvas">
         <Canvas id="myCanvas" ></Canvas>
         </div>
